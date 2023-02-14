@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script src="app.js" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
+
 <body>
     <form>
         <label for="input-text">Your nickname:</label>
@@ -16,8 +18,8 @@
     </form>
     <h4 id="name">Please fill your nickname</h4>
     <div class="container">
-        <section class="screen">    
-            <div class="screen-user">    
+        <section class="screen">
+            <div class="screen-user">
                 <div class="buttons">
                     <button id="rock">Rock</button>
                     <button id="paper">Paper</button>
@@ -27,11 +29,19 @@
                 <div class="point-user">Your point: 0</div>
             </div>
             <div class="screen-ai">
-                <p class="ai-mess">You can Not Defeat Me!!! Because I am Best </p>
                 <div class="response-ai"></div>
-                <div class="point-ai">AI point: 0</div>
+            </div>
+            <div>
+                <table class="highScore">
+                    <tr>
+                        <th>rank</th>
+                        <th>name</th>
+                        <th>score</th>
+                    </tr>
+                </table>
             </div>
         </section>
     </div>
 </body>
+
 </html>
